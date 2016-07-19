@@ -13,11 +13,11 @@ Based on the curriculum for [Xtern Bootcamp 2016](http://bootcamp16.getfretless.
 
 In development:
 
-*ECMAScript 2015 (ES6)
-*Babel - convert ES6 to ES5
-*NPM - for development dependencies
-*Bower - for dependencies
-*Gulp - build system
+* [ECMAScript 2015 (ES6)](http://es6-features.org/)
+* [Babel](https://babeljs.io/) - convert ES6 to ES5
+* [NPM](https://www.npmjs.com/) - for development dependencies
+* [Bower](https://bower.io/) - for dependencies
+* [Gulp](https://www.npmjs.com/package/gulp) - build system
 
 ## Getting Started
 
@@ -25,8 +25,14 @@ In development:
 
 To get started, clone the repository and run 'npm start'.
 
-...
-git clone <this repository>
-cd <this project folder>
-npm start
-...
+> $ git clone <this repository>
+> $ cd <this project folder>
+> $ npm start
+
+This will install dependencies and starta a web server on port 8000
+
+To change the URL of the API ('localhost:3030' by default), edit 'app/constants.js'.
+
+## Deployment
+
+To deploy Meganote, copy the contents fo the 'app' folder to your remote server.
