@@ -25,9 +25,11 @@ In development:
 
 To get started, clone the repository and run 'npm start'.
 
-> $ git clone <this repository>
-> $ cd <this project folder>
-> $ npm start
+```
+ $ git clone <this repository>
+ $ cd <this project folder>
+ $ npm start
+```
 
 This will install dependencies and starta a web server on port 8000
 
